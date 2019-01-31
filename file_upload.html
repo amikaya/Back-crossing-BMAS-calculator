@@ -1,0 +1,25 @@
+<html>
+<body>
+<form action="http://192.168.5.82:5002/upload"
+enctype="multipart/form-data" method="post">
+<p>
+Please enter the generation (f1/bc1/bc2/...)*:<br>
+<input type="text" name="generation" size="15">
+</p>
+<p>
+Please enter the number of total markers:<br>
+<input type="text" name="total_markers" size="15" required>
+</p>
+<p>
+Please specify a file:<br>
+<input type="file" name="datafile" size="40" accept=".xlsx" required>
+</p>
+<div>
+<input type="submit" value="Send">
+</div>
+<p>
+*Other words or none can be accept, but candidate plants for next generation will not be selected
+</p>
+</form>
+</body>
+</html>
